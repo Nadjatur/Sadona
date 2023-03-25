@@ -1,0 +1,32 @@
+header{
+    background-color: $dark_red;
+    display: flex;
+    .main_header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        /* margin: 0 auto; */
+        justify-content: space-evenly;
+        padding: 0.5rem;
+        ul{
+   
+           // margin-top: -1rem;
+            padding: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            list-style: none;
+            font-size: 1rem; 
+            li{//padding: 1rem;
+                a{//padding-bottom: 1rem;
+                    color:$latte;
+                    cursor: pointer;
+                    padding: 0.5rem;
+                }
+                a:hover{color: $white;}
+            }
+        }
+    }
+}
