@@ -1,7 +1,7 @@
 .hero_img{
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-image: url("../assets/920.png");
     object-fit: cover;
     background-position: center;
@@ -13,7 +13,8 @@
     .hero_txt{
         padding: 12rem;
         width: 39rem;
-
+        z-index: 2;
+        position: absolute;
     }
     .flower{
         position: absolute;
@@ -22,9 +23,28 @@
     .flower1{
         position: absolute;
         padding-left: 55rem;
+        padding-top: 2rem;
         width: 6rem;
     }
-    
+    .flower2{
+        position: absolute;
+        padding-left: 29rem;
+        padding-top: 30rem;
+        width: 6rem;
+    }
+
+    .leaf{ position: absolute;
+        padding-left: 29rem;
+        padding-top: 5rem;}
+    .leaf1{ position: absolute;
+        position: absolute;
+        padding-left: 16rem;
+        padding-top: 35rem;}
+    .leaf2{ position: absolute;
+        padding-left: 88vw;
+    padding-top: 24rem;
+        //width: 6rem;
+    }
 }
 .btn_brown{
     color: $white;

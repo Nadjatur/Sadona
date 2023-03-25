@@ -24,15 +24,31 @@ header .main_header ul li a {
   color: #D1C1A5;
   cursor: pointer;
   padding: 0.5rem;
+  font-family: "Barlow";
 }
 header .main_header ul li a:hover {
   color: #FFFFFF;
+}
+header .dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .arrow {
+  border: solid #D1C1A5;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+}
+header .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 
 .hero_img {
   position: relative;
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   background-image: url("../assets/920.png");
   object-fit: cover;
   background-position: center;
@@ -54,6 +70,8 @@ header .main_header ul li a:hover {
 .hero_img .hero_txt {
   padding: 12rem;
   width: 39rem;
+  z-index: 2;
+  position: absolute;
 }
 .hero_img .flower {
   position: absolute;
@@ -62,7 +80,30 @@ header .main_header ul li a:hover {
 .hero_img .flower1 {
   position: absolute;
   padding-left: 55rem;
+  padding-top: 2rem;
   width: 6rem;
+}
+.hero_img .flower2 {
+  position: absolute;
+  padding-left: 29rem;
+  padding-top: 30rem;
+  width: 6rem;
+}
+.hero_img .leaf {
+  position: absolute;
+  padding-left: 29rem;
+  padding-top: 5rem;
+}
+.hero_img .leaf1 {
+  position: absolute;
+  position: absolute;
+  padding-left: 16rem;
+  padding-top: 35rem;
+}
+.hero_img .leaf2 {
+  position: absolute;
+  padding-left: 88vw;
+  padding-top: 24rem;
 }
 
 .btn_brown {
@@ -76,6 +117,45 @@ header .main_header ul li a:hover {
 
 .btn_brown:hover {
   border-radius: 0;
+}
+
+.heroex {
+  background-color: #D1C1A5;
+  position: relative;
+}
+.heroex .heroex_inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.heroex h2 {
+  color: #FFFFFF;
+  margin: 0;
+  font-family: "Prata";
+  font-weight: 100;
+}
+.heroex p {
+  color: #803E38;
+  font-family: "Prata";
+  font-weight: 100;
+}
+
+.leaf3 {
+  position: absolute;
+  padding-left: 63vw;
+}
+
+.leaf4 {
+  position: absolute;
+  padding-left: 28vw;
+  padding-top: 1rem;
+}
+
+.flower3 {
+  position: absolute;
+  padding-left: 56vw;
+  padding-top: 7rem;
 }
 
 html {

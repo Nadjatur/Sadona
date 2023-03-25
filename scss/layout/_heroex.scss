@@ -1,0 +1,22 @@
+.heroex{
+    background-color: $latte;
+    position: relative;
+    .heroex_inside{display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+   
+    }
+    h2{color: $white;margin: 0;font-family: 'Prata';font-weight: 100;}
+    p{color: $dark_red;font-family: 'Prata';font-weight: 100;}
+} .leaf3{position: absolute;
+        padding-left: 63vw;}
+    .leaf4{position: absolute;
+        padding-left: 28vw;
+    padding-top: 1rem;}
+
+    .flower3{
+        position: absolute;
+        padding-left: 56vw;
+    padding-top: 7rem;
+    }

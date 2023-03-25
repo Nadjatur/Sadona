@@ -24,9 +24,25 @@ header{
                     color:$latte;
                     cursor: pointer;
                     padding: 0.5rem;
+                    font-family: 'Barlow';
                 }
                 a:hover{color: $white;}
             }
         }
     }
+    .dropdown{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .arrow {
+        border: solid $latte;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+      }
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
 }
