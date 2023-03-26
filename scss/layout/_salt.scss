@@ -25,10 +25,19 @@
     .salt_txt {
       width: 25vw;
       padding: 2rem;
+      h4 {
+        font-family: "Cookie";
+        color: $dark_red;
+        font-size: 1.5rem;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        svg{fill:$dark_red;}
+      }
       h2 {
         font-family: "Prata";
         font-weight: 100;
-        font-size: 2rem;
+        font-size: 3rem;
       }
       p {
         font-family: "Barlow";

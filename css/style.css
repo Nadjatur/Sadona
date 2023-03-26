@@ -164,6 +164,17 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 2rem;
+}
+.services_text button {
+  margin-bottom: 2rem;
+}
+.services_text svg {
+  stroke-width: 2;
+  stroke: #803E38;
+  height: 1rem;
+  width: 9rem;
+  margin-top: 0.5rem;
 }
 .services_text h2 {
   color: #803E38;
@@ -270,6 +281,17 @@ header .down {
   left: -7rem;
   top: 0.2rem;
 }
+.services_img_txt h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.services_img_txt h4 svg {
+  fill: #D1C1A5;
+}
 .services_img_txt p {
   color: #483224;
   font-family: "Barlow";
@@ -296,6 +318,17 @@ header .down {
 .spa_srv .spa_txt_right {
   left: 16rem;
   position: absolute;
+}
+.spa_srv .spa_txt_right h4 {
+  font-family: "Cookie";
+  color: #D1C1A5;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.spa_srv .spa_txt_right h4 svg {
+  fill: #D1C1A5;
 }
 .spa_srv h3 {
   color: #FFFFFF;
@@ -343,7 +376,7 @@ header .down {
 .bridal_img {
   background-image: url("../assets/635676-POCVFD-599.png");
   width: 64vw;
-  height: 44vh;
+  height: 55vh;
   border-radius: 0 10rem;
   background-size: cover;
   background-position: right;
@@ -359,6 +392,18 @@ header .down {
   flex-direction: column;
   align-items: flex-start;
   padding: 3rem;
+  padding-top: 0;
+}
+.bridal_txt h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.bridal_txt h4 svg {
+  fill: #803E38;
 }
 .bridal_txt h2 {
   font-family: "Prata";
@@ -371,6 +416,13 @@ header .down {
   color: #803E38;
   font-family: "Barlow";
   font-weight: 100;
+}
+
+.ch-b {
+  color: #803E38;
+}
+.ch-b svg {
+  fill: #803E38;
 }
 
 .salt {
@@ -406,10 +458,21 @@ header .down {
   width: 25vw;
   padding: 2rem;
 }
+.salt .salt_content .salt_txt h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.salt .salt_content .salt_txt h4 svg {
+  fill: #803E38;
+}
 .salt .salt_content .salt_txt h2 {
   font-family: "Prata";
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .salt .salt_content .salt_txt p {
   font-family: "Barlow";
@@ -428,6 +491,14 @@ header .down {
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 2rem;
+}
+.cezanne_txt_bf svg {
+  stroke-width: 2;
+  stroke: #803E38;
+  height: 1rem;
+  width: 9rem;
+  margin-top: 0.5rem;
 }
 .cezanne_txt_bf .cezanne_txt_flower {
   position: absolute;
@@ -477,6 +548,19 @@ header .down {
 .cezanne_content:hover h2 {
   color: #803E38;
 }
+.cezanne_content:hover h4 {
+  color: #803E38;
+}
+.cezanne_content:hover h4 svg {
+  fill: #803E38 !important;
+}
+.cezanne_content:hover .tr {
+  color: #803E38;
+  font-weight: normal;
+}
+.cezanne_content:hover .tr svg {
+  fill: #803E38 !important;
+}
 
 .cezanne_content {
   border-radius: 0 6rem;
@@ -491,6 +575,7 @@ header .down {
   font-family: "Prata";
   font-weight: 100;
   font-size: 2rem;
+  margin-bottom: 0;
 }
 .cezanne_content p {
   font-family: "Barlow";
@@ -505,8 +590,33 @@ header .down {
 }
 
 .cezanne_txt {
-  width: 34%;
+  width: 38%;
   padding: 2rem;
+  padding-right: 0;
+}
+.cezanne_txt h4 {
+  font-family: "Cookie";
+  color: #D1C1A5;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.cezanne_txt h4 svg {
+  fill: #D1C1A5;
+}
+
+.help_bf h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.help_bf h4 svg {
+  fill: #803E38;
 }
 
 .help {
@@ -515,6 +625,17 @@ header .down {
   justify-content: space-evenly;
   align-items: center;
   margin: 2rem 0;
+}
+.help h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+.help h4 svg {
+  fill: #803E38;
 }
 .help h1 {
   font-family: "Prata";
@@ -526,6 +647,29 @@ header .down {
   font-size: 0.6rem;
   padding: 0.8rem 1.77rem;
   height: 3rem;
+  margin-top: 3rem;
+}
+
+.tr {
+  color: #D1C1A5;
+  margin-left: 4rem;
+}
+.tr svg {
+  fill: #D1C1A5;
+  transform: rotate(-90deg);
+  padding: 0 1rem;
+}
+
+.extension {
+  margin: 0 !important;
+}
+.extension p {
+  color: #803E38 !important;
+  font-family: "Barlow" !important;
+  font-weight: normal !important;
+}
+.extension svg {
+  fill: #803E38 !important;
 }
 
 .news {
@@ -559,6 +703,19 @@ header .down {
   border-radius: 6rem 0;
   width: 20%;
 }
+.news .news_three_divs .news_content h4 {
+  font-family: "Cookie";
+  color: #803E38;
+  font-size: 1.5rem;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+}
+.news .news_three_divs .news_content h4 svg {
+  fill: #803E38;
+}
 .news .news_three_divs .news_content .news_img {
   background-image: url("../assets/pexels-cottonbro-3737594.png");
   width: 100%;
@@ -586,6 +743,9 @@ header .down {
   font-size: 1.3rem;
   font-weight: 100;
   padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
 }
 .news .news_three_divs p {
   font-family: "Barlow";
@@ -601,6 +761,15 @@ header .down {
 }
 .news .news_content:hover p {
   color: #FFFFFF;
+}
+.news .news_content:hover p svg {
+  fill: #D1C1A5 !important;
+}
+.news .news_content:hover h4 {
+  color: #D1C1A5;
+}
+.news .news_content:hover h4 svg {
+  fill: #D1C1A5 !important;
 }
 
 .beforefooter {

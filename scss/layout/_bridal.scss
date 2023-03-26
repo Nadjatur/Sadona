@@ -16,7 +16,7 @@
 .bridal_img {
   background-image: url("../assets/635676-POCVFD-599.png");
   width: 64vw;
-  height: 44vh;
+  height: 55vh;
   border-radius: 0 10rem;
   background-size: cover;
   background-position: right;
@@ -32,7 +32,17 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 3rem;
+  padding-top: 0;
   // opacity: 45%;
+  h4 {
+    font-family: "Cookie";
+    color: $dark_red;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    svg{fill:$dark_red;}
+  }
   h2 {
     font-family: "Prata";
     font-weight: 100;
@@ -45,4 +55,10 @@
     font-family: "Barlow";
     font-weight: 100;
   }
+}
+
+
+.ch-b{
+  color: $dark_red;
+  svg{fill:$dark_red;}
 }
