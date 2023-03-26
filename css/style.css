@@ -513,6 +513,18 @@ header .down {
   color: #FFFFFF;
 }
 
+footer {
+  background-color: #803E38;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  font-weight: 400;
+  font-family: "Playfair Display";
+}
+
 html {
   font-size: 62, 5%;
   overflow-x: hidden;
