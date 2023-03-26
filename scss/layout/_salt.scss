@@ -1,0 +1,37 @@
+.salt {
+  background-color: $latte;
+  width: 100%;
+  height: 50vh;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .salt_content {
+    //background-color: red;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .salt_txt {
+      width: 25vw;
+      padding: 2rem;
+      h2 {
+        font-family: "Prata";
+        font-weight: 100;
+        font-size: 2rem;
+      }
+      p {
+        font-family: "Barlow";
+        font-weight: 100;
+      }
+    }
+    .salt_img {
+      background-image: url("../assets/3093620.png");
+      height: 100%;
+      width: 60%;
+      border-radius: 0 10rem;
+      background-size: cover;
+    }
+  }
+}

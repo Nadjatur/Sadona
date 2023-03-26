@@ -291,6 +291,7 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 6rem;
 }
 
 .bridal_img {
@@ -300,6 +301,85 @@ header .down {
   border-radius: 0 10rem;
   background-size: cover;
   background-position: right;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.bridal_txt {
+  width: 30%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.45);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem;
+}
+.bridal_txt h2 {
+  font-family: "Prata";
+  font-weight: 100;
+  color: #483224;
+  font-size: 2rem;
+  margin: 0;
+}
+.bridal_txt p {
+  color: #803E38;
+  font-family: "Barlow";
+  font-weight: 100;
+}
+
+.salt {
+  background-color: #D1C1A5;
+  width: 100%;
+  height: 50vh;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.salt .salt_content {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.salt .salt_content .salt_txt {
+  width: 25vw;
+  padding: 2rem;
+}
+.salt .salt_content .salt_txt h2 {
+  font-family: "Prata";
+  font-weight: 100;
+  font-size: 2rem;
+}
+.salt .salt_content .salt_txt p {
+  font-family: "Barlow";
+  font-weight: 100;
+}
+.salt .salt_content .salt_img {
+  background-image: url("../assets/3093620.png");
+  height: 100%;
+  width: 60%;
+  border-radius: 0 10rem;
+  background-size: cover;
+}
+
+.cezanne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cezanne h2 {
+  font-family: "Prata";
+  color: #803E38;
+  font-weight: 100;
+  margin-bottom: 0;
+  margin-top: 5rem;
+}
+.cezanne p {
+  font-family: "Barlow";
+  color: #483224;
+  font-weight: 100;
 }
 
 html {
