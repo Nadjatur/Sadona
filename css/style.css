@@ -229,6 +229,40 @@ header .down {
 
 .services {
   margin-bottom: 4rem;
+  position: relative;
+}
+.services .services_flower {
+  position: absolute;
+  left: 30vw;
+  top: 22vh;
+  z-index: 2;
+  width: 5rem;
+}
+.services .services_leaf {
+  position: absolute;
+  left: 64vw;
+  width: 6rem;
+  top: 16vh;
+}
+.services .services_flower2 {
+  position: absolute;
+  left: 43vw;
+  top: 102vh;
+  z-index: 3;
+}
+.services .services_leaf2 {
+  position: absolute;
+  left: 29vw;
+  width: 4rem;
+  top: 66vh;
+  z-index: 3;
+}
+.services .services_leaf3 {
+  position: absolute;
+  left: 55vw;
+  width: 6rem;
+  top: 108vh;
+  z-index: 3;
 }
 
 .services_img_txt {
@@ -292,6 +326,18 @@ header .down {
   flex-direction: column;
   align-items: center;
   margin-bottom: 6rem;
+  position: relative;
+}
+.bridal .bridal_flower {
+  position: absolute;
+  left: 74vw;
+  top: -5vh;
+}
+.bridal .bridal_leaf {
+  position: absolute;
+  left: 73vw;
+  width: 6rem;
+  top: 35vh;
 }
 
 .bridal_img {
@@ -335,6 +381,19 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.salt .salt_flower {
+  position: absolute;
+  left: 35vw;
+  top: 5vh;
+  width: 6rem;
+}
+.salt .salt_leaf {
+  position: absolute;
+  left: 39vw;
+  width: 6rem;
+  top: 35vh;
 }
 .salt .salt_content {
   height: 100%;
@@ -368,6 +427,18 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.cezanne_txt_bf .cezanne_txt_flower {
+  position: absolute;
+  left: 75vw;
+  width: 5rem;
+}
+.cezanne_txt_bf .cezanne_txt_leaf {
+  position: absolute;
+  left: 25vw;
+  width: 3rem;
+  top: 15vh;
 }
 .cezanne_txt_bf h2 {
   font-family: "Prata";
@@ -386,6 +457,18 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.cezanne .cezanne_flower {
+  position: absolute;
+  left: 58vw;
+  top: 28vh;
+}
+.cezanne .cezanne_leaf {
+  position: absolute;
+  left: 49vw;
+  width: 5rem;
+  top: 38vh;
 }
 
 .cezanne_content:hover {
@@ -450,6 +533,12 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.news .news_flower {
+  position: absolute;
+  width: 4rem;
+  left: 31vw;
 }
 .news h2 {
   font-family: "Prata";
@@ -518,6 +607,22 @@ header .down {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+.beforefooter .footer_img {
+  position: absolute;
+  left: 69vw;
+  top: 12vh;
+}
+.beforefooter .footer_img2 {
+  position: absolute;
+  left: 24vw;
+  top: 15vh;
+}
+.beforefooter .footer_img3 {
+  position: absolute;
+  left: 82vw;
+  top: 51vh;
 }
 
 .suprice {
@@ -547,6 +652,7 @@ header .down {
 .group_of_two {
   display: flex;
   align-items: flex-end;
+  width: 77%;
 }
 .group_of_two .first_group h2 {
   color: #803E38;
@@ -557,6 +663,33 @@ header .down {
 }
 .group_of_two .second_group {
   display: flex;
+}
+.group_of_two .second_group svg {
+  fill: #803E38 !important;
+  margin-right: 0.5rem;
+}
+.group_of_two .second_group ul {
+  list-style: none;
+}
+.group_of_two .second_group ul li {
+  padding: 0.5rem;
+  color: #483224;
+  font-family: "Barlow";
+  font-weight: normal;
+}
+.group_of_two .second_group ul .inline_social svg {
+  padding: 0.1rem;
+  width: 2.3rem;
+}
+.group_of_two .second_group ul .inline_social svg:hover {
+  fill: #D1C1A5 !important;
+}
+.group_of_two .second_group .second_part {
+  width: 23vw;
+}
+.group_of_two .second_group .second_part .bolder_part {
+  color: #803E38;
+  font-weight: bold;
 }
 
 .bottom_group {
@@ -587,6 +720,8 @@ header .down {
 }
 .bottom_group ul li a:hover {
   color: #803E38;
+  border-bottom: 1px solid #803E38;
+  font-weight: normal;
 }
 
 footer {

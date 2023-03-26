@@ -6,6 +6,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  .salt_flower{ position: absolute;
+    left: 35vw;
+    top: 5vh;
+    width: 6rem;}
+  .salt_leaf{ position: absolute;
+    left: 39vw;
+    width: 6rem;
+    top: 35vh;}
   .salt_content {
     //background-color: red;
     height: 100%;

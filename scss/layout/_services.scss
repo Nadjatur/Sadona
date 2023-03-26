@@ -60,6 +60,30 @@ img{margin-right: 0.5rem;}}
 
 .services{
     margin-bottom: 4rem;
+    position: relative;
+    .services_flower{ position: absolute;
+        left: 30vw;
+    top: 22vh;
+    z-index: 2;
+    width: 5rem;}
+      .services_leaf{ position: absolute;
+        left: 64vw;
+    width: 6rem;
+    top: 16vh;}
+        .services_flower2{ position: absolute;
+            left: 43vw;
+            top: 102vh;
+            z-index: 3;}
+          .services_leaf2{ position: absolute;
+            left: 29vw;
+    width: 4rem;
+    top: 66vh;
+    z-index: 3;}
+            .services_leaf3{ position: absolute;
+                left: 55vw;
+    width: 6rem;
+    top: 108vh;
+    z-index: 3;}
 }
 
 .services_img_txt{

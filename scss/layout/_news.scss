@@ -3,6 +3,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  .news_flower{
+    position: absolute;
+    width: 4rem;
+    left: 31vw;
+  }
   h2 {
     font-family: "Prata";
     color: $dark_red;
