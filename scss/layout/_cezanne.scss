@@ -1,7 +1,79 @@
-.cezanne{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2{font-family: 'Prata';color: $dark_red;font-weight: 100;margin-bottom: 0;margin-top: 5rem;}
-    p{font-family: 'Barlow';color: $brown;font-weight: 100;}
+.cezanne_txt_bf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-family: "Prata";
+    color: $dark_red;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 5rem;
+  }
+  p {
+    font-family: "Barlow";
+    color: $brown;
+    font-weight: 100;
+  }
+}
+
+.cezanne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cezanne_content:hover {
+  background-color: $latte;
+  h2 {
+    color: $dark_red;
+  }
+}
+.cezanne_content {
+  border-radius: 0 6rem;
+  background-color: $dark_red;
+  color: $white;
+  display: flex;
+  height: 15rem;
+  width: 55rem;
+  justify-content: space-between;
+  h2 {
+    font-family: "Prata";
+    font-weight: 100;
+    font-size: 2rem;
+  }
+  p {
+    font-family: "Barlow";
+    font-weight: 100;
+  }
+  .cezanne_img {
+    background-image: url("../assets/Cezanne-Stylign-Line.png");
+    height: 100%;
+    width: 29rem;
+    border-radius: 0 6rem;
+    background-size: cover;
+  }
+}
+
+.cezanne_txt {
+  width: 34%;
+  padding: 2rem;
+}
+
+.help {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+  h1 {
+    font-family: "Prata";
+    font-size: 2rem;
+    font-weight: 100;
+    color: $brown;
+  }
+  button {
+    font-size: 0.6rem;
+    padding: 0.8rem 1.77rem;
+    height: 3rem;
+  }
 }
