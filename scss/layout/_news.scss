@@ -2,7 +2,7 @@
 .extension{
   margin: 0 !important;
  p{color: $dark_red !important;font-family: 'Barlow' !important;font-weight: normal !important;}
-  svg{fill:$dark_red !important ;}
+  svg{fill:$dark_red  ;}
 }
 .news {
   background-color: $latte;
@@ -34,6 +34,15 @@
       background-color: $white;
       border-radius: 6rem 0;
       width: 20%;
+      h5{display: flex;
+        align-items: center;padding: 1rem;
+        color: $dark_red;padding-bottom: 0;
+        font-weight: normal;
+        font-family: 'Barlow';margin: 0;
+        svg{stroke-width: 2;
+          stroke: $dark_red;
+          height: 1rem;margin-top: 0.5rem;}
+      }
       h4 {
           font-family: "Cookie";
           color: $dark_red;
@@ -77,6 +86,7 @@
       padding-top: 0;
       padding-bottom: 0;
       margin:0;
+      height: 7vh;
     
     }
     p {
@@ -92,6 +102,9 @@
     h4{color: $latte;
       svg{fill:$latte !important;}
     }
+    h5{color: $latte;
+    svg {stroke: $latte ;}}
+    
 }
 }
 

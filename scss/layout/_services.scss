@@ -173,8 +173,8 @@
     width: 29vw;
   }
   button {
-    background-color: $latte;
-    color: $dark_red;
+    background-color: $latte !important;
+    color: $dark_red !important;
   }
 }
 .spa {

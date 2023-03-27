@@ -7,6 +7,21 @@
     background-position: center;
     margin: 0;
     color: $white;
+    ul{position: absolute;
+    list-style: none;align-items: flex-start;display: flex;
+    flex-direction: column;
+    top: 65vh;
+    left: 8vw;
+    li{padding: 0 2rem;z-index: 6;}
+    li:hover{.a{fill: $dark_red;}}
+    .a{fill:$white;}
+    
+        .vertical{
+            stroke-width: 2;
+        stroke: $white;
+       
+        }
+}
     h2{margin: 0;font-family: 'Cookie';font-size: 3rem;font-weight: 100;}
     h1{font-family: 'Prata';font-weight: 100;font-size: 3.5rem;
         margin-top: 0;}
@@ -58,6 +73,7 @@
 
 .btn_brown:hover{
     border-radius:  0 ;
+    background-color: $dark_red;
 }
 #dropdown-content{display: none;}
 .show {
