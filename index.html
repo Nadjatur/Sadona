@@ -32,9 +32,9 @@
       <div class="main_header nav">
         <div>
           <ul>
-            <li><a>Home</a></li>
-            <li><a>Our Story</a></li>
-            <li class="dropdown"><a>Services</a><i class="arrow down"></i></li>
+            <li><a class="a">Home</a></li>
+            <li><a class="a">Our Story</a></li>
+            <li class="dropdown" onclick="myFunction()"><a>Services</a><i class="arrow down"></i></li>
           </ul>
         </div>
         <img src="assets/image-asset.png" />
@@ -50,6 +50,17 @@
     <main>
       <section class="hero">
         <div class="hero_img">
+          <div id="dropdown-content">
+            <a>Salon Services</a>
+            <svg height="50" width="50">
+              <line x1="0" y1="0" x2="50"   />
+            </svg>
+            <a>Spa Services</a>
+            <svg height="50" width="50">
+              <line x1="0" y1="0" x2="50"   />
+            </svg>
+            <a>Bridal Services</a>
+          </div>
           <img src="assets/cvet 1-2.png" class="flower" />
           <img src="assets/cvet 1-1.png" class="flower1" />
           <img src="assets/cvet 2.png" class="flower2" />

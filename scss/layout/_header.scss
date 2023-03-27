@@ -26,8 +26,17 @@ header{
                     padding: 0.5rem;
                     font-family: 'Barlow';
                 }
-                a:hover{color: $white;}
+                
             }
+            li:hover{
+                
+                .a{padding-bottom: 2rem;
+                    border-bottom: 1px solid $white;color: $white;}
+                
+            }
+            
+
+                
         }
     }
     .dropdown{
@@ -46,3 +55,4 @@ header{
         -webkit-transform: rotate(45deg);
       }
 }
+
