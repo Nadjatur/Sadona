@@ -1,0 +1,25 @@
+
+.menuToggle span
+{
+  display: none;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: $white;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+
+}
+.menu{display: none !important;}
+.menu_show{display: flex !important;position: absolute;
+    top: 12%;
+    z-index: 6;
+    background: $white;
+    width: 100%;
+    flex-direction: column !important;
+    align-items: center !important;
+a{text-decoration: none;padding: 1rem !important;color: $dark_red;font-family: 'Barlow';font-weight: normal;}}

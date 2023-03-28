@@ -1,18 +1,63 @@
 //mobile
 @media screen and (max-width:767px){
+.main_div{display: none;}
+.menuToggle span{display: block !important;}
+.slider_nav{display: none !important;}
+.services_img2{display: none !important;}
+.news{display: none !important;}
+.suprice{display: none !important;}
+.bottom_group{display: none !important;}
+.footer_img{display: none !important;}
+.group_of_two{flex-direction: column;
 
+}
+.spa_txt_right{left: 6rem !important;}
+.sadonalogo{width: 13vw !important;}
+.hero_img{
+  .flower1{padding-left: 60vw !important;}
+  .leaf2{padding-left: 7vw !important;}
+  .hero_txt{
+    padding: 4rem !important;
+  }
+}
 }
 //talet-kreirati hamburger m
 @media screen and (min-width:768px) and (max-width:991px){
+ .main_div{display: none ;}
+ .group_of_two{flex-direction: column;
 
+ }.sadonalogo{width: 9vw !important;}
+.menuToggle span{display: block !important;}
+.slider_nav{display: none !important;}
+.services_img2{display: none !important;}
+.spa_txt_right{left: 5rem !important;}
+.news{display: none !important;}
+.footer_img{display: none !important;}
+.bottom_group{display: none !important;}
+.suprice{display: none !important;}.hero_img{
+  .flower1{padding-left: 60vw !important;}
+  .leaf2{padding-left: 7vw !important;}
+  .hero_txt{
+    padding: 4rem !important;
+  }
 }
+}
+
+
 //fix
 @media screen and (min-width:992px) and (max-width:1024px){
-
+  .footer_img{display: none !important;}
+  .news{
+    .news_three_divs {h3{font-size: 1rem !important;}p{display: none;} h5{display: none !important;} 
+  .news_content{    height: 42vh}}
+  }
 }
 //fix2
 @media screen and (min-width:1025px) and (max-width:1200px){
-
+  .footer_img{display: none !important;}
+  .news{
+    .news_three_divs {.news_content{    height: 42vh} h3{font-size: 1rem !important;} p{display: none;}h5{display: none !important;}}
+  }
 }
 //desktop a vece od toga je moj monitor big :D
 @media screen and (min-width:992px) and (max-width:1600px){

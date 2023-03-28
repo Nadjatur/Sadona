@@ -1,3 +1,125 @@
+@media screen and (max-width: 767px) {
+  .main_div {
+    display: none;
+  }
+  .menuToggle span {
+    display: block !important;
+  }
+  .slider_nav {
+    display: none !important;
+  }
+  .services_img2 {
+    display: none !important;
+  }
+  .news {
+    display: none !important;
+  }
+  .suprice {
+    display: none !important;
+  }
+  .bottom_group {
+    display: none !important;
+  }
+  .footer_img {
+    display: none !important;
+  }
+  .group_of_two {
+    flex-direction: column;
+  }
+  .spa_txt_right {
+    left: 6rem !important;
+  }
+  .sadonalogo {
+    width: 13vw !important;
+  }
+  .hero_img .flower1 {
+    padding-left: 60vw !important;
+  }
+  .hero_img .leaf2 {
+    padding-left: 7vw !important;
+  }
+  .hero_img .hero_txt {
+    padding: 4rem !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .main_div {
+    display: none;
+  }
+  .group_of_two {
+    flex-direction: column;
+  }
+  .sadonalogo {
+    width: 9vw !important;
+  }
+  .menuToggle span {
+    display: block !important;
+  }
+  .slider_nav {
+    display: none !important;
+  }
+  .services_img2 {
+    display: none !important;
+  }
+  .spa_txt_right {
+    left: 5rem !important;
+  }
+  .news {
+    display: none !important;
+  }
+  .footer_img {
+    display: none !important;
+  }
+  .bottom_group {
+    display: none !important;
+  }
+  .suprice {
+    display: none !important;
+  }
+  .hero_img .flower1 {
+    padding-left: 60vw !important;
+  }
+  .hero_img .leaf2 {
+    padding-left: 7vw !important;
+  }
+  .hero_img .hero_txt {
+    padding: 4rem !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .footer_img {
+    display: none !important;
+  }
+  .news .news_three_divs h3 {
+    font-size: 1rem !important;
+  }
+  .news .news_three_divs p {
+    display: none;
+  }
+  .news .news_three_divs h5 {
+    display: none !important;
+  }
+  .news .news_three_divs .news_content {
+    height: 42vh;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .footer_img {
+    display: none !important;
+  }
+  .news .news_three_divs .news_content {
+    height: 42vh;
+  }
+  .news .news_three_divs h3 {
+    font-size: 1rem !important;
+  }
+  .news .news_three_divs p {
+    display: none;
+  }
+  .news .news_three_divs h5 {
+    display: none !important;
+  }
+}
 header {
   background-color: #803E38;
   display: flex;
@@ -63,7 +185,7 @@ header .down {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  top: 65vh;
+  top: 70vh;
   left: 8vw;
 }
 .hero_img ul li {
@@ -181,6 +303,12 @@ header .down {
   top: 65vh;
   left: 32vw;
 }
+.slider_nav p {
+  cursor: pointer;
+}
+.slider_nav p:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
 .slider_nav .inside_slider_nav {
   background-color: rgba(255, 255, 255, 0.45);
   height: 0.5vh;
@@ -188,7 +316,7 @@ header .down {
   margin-left: 1rem;
   margin-right: 1rem;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
 }
 .slider_nav p {
@@ -200,12 +328,13 @@ header .down {
   font-size: 1.7rem;
   font-family: "Prata";
   font-weight: 100;
-  margin-top: 0.3rem;
+  margin-top: 0;
+  border-top: 0.3rem solid #FFFFFF;
   cursor: pointer;
 }
 .slider_nav h5:hover {
-  border-top: 0.3rem solid #FFFFFF;
-  margin-top: 0;
+  border-top: 0.3rem solid #803E38;
+  color: #803E38;
 }
 
 .heroex {
@@ -799,6 +928,7 @@ header .down {
   color: #803E38;
   padding-bottom: 0;
   font-weight: normal;
+  font-size: 0.7rem;
   font-family: "Barlow";
   margin: 0;
 }
@@ -879,6 +1009,7 @@ header .down {
 }
 .news .news_content:hover h5 {
   color: #D1C1A5;
+  font-size: 0.7rem;
 }
 .news .news_content:hover h5 svg {
   stroke: #D1C1A5;
@@ -1015,6 +1146,39 @@ footer {
 footer p {
   font-weight: 400;
   font-family: "Playfair Display";
+}
+
+.menuToggle span {
+  display: none;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #FFFFFF;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.menu {
+  display: none !important;
+}
+
+.menu_show {
+  display: flex !important;
+  position: absolute;
+  top: 12%;
+  z-index: 6;
+  background: #FFFFFF;
+  width: 100%;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.menu_show a {
+  text-decoration: none;
+  padding: 1rem !important;
+  color: #803E38;
+  font-family: "Barlow";
+  font-weight: normal;
 }
 
 html {

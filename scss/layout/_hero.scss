@@ -13,7 +13,7 @@
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    top: 65vh;
+    top: 70vh;
     left: 8vw;
     li {
       padding: 0 2rem;
@@ -141,6 +141,8 @@
   align-items: center;
   top: 65vh;
   left: 32vw;
+  p{cursor: pointer;}
+  p:hover{background-color: $white_opacity;}
   .inside_slider_nav {
     background-color: $white_opacity;
     height: 0.5vh;
@@ -148,7 +150,7 @@
     margin-left: 1rem;
     margin-right: 1rem;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
   }
   p {
@@ -160,13 +162,13 @@
     font-size: 1.7rem;
     font-family: 'Prata';
     font-weight: 100;
-    margin-top: 0.3rem;
+    margin-top: 0;border-top: 0.3rem solid $white;
     cursor: pointer;
   }
   h5:hover{
    // transform: translate();
-   border-top: 0.3rem solid $white;
-   margin-top: 0;
+   border-top: 0.3rem solid $dark_red;
+   color: $dark_red;
 
   }
 }
