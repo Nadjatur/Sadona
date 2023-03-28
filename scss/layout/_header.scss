@@ -1,58 +1,52 @@
-header{
-    background-color: $dark_red;
+header {
+  background-color: $dark_red;
+  display: flex;
+  .main_header {
     display: flex;
-    .main_header{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 100%;
-        /* margin: 0 auto; */
-        justify-content: space-evenly;
-        padding: 0.5rem;
-        ul{
-   
-           // margin-top: -1rem;
-            padding: 0;
-            margin-bottom: 0;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            list-style: none;
-            font-size: 1rem; 
-            li{//padding: 1rem;
-                a{//padding-bottom: 1rem;
-                    color:$latte;
-                    cursor: pointer;
-                    padding: 0.5rem;
-                    font-family: 'Barlow';
-                }
-                
-            }
-            li:hover{
-                
-                .a{padding-bottom: 2rem;
-                    border-bottom: 1px solid $white;color: $white;}
-                
-            }
-            
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
 
-                
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    ul {
+      padding: 0;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      list-style: none;
+      font-size: 1rem;
+      li {
+        a {
+          color: $latte;
+          cursor: pointer;
+          padding: 0.5rem;
+          font-family: "Barlow";
         }
-    }
-    .dropdown{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .arrow {
-        border: solid $latte;
-        border-width: 0 1px 1px 0;
-        display: inline-block;
-        padding: 3px;
       }
-      .down {
-        transform: rotate(45deg);
-        -webkit-transform: rotate(45deg);
+      li:hover {
+        .a {
+          padding-bottom: 2rem;
+          border-bottom: 1px solid $white;
+          color: $white;
+        }
       }
+    }
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .arrow {
+    border: solid $latte;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
 }
-

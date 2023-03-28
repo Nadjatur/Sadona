@@ -4,13 +4,17 @@
   align-items: center;
   margin-bottom: 6rem;
   position: relative;
-  .bridal_flower{ position: absolute;
+  .bridal_flower {
+    position: absolute;
     left: 74vw;
-    top: -5vh;}
-  .bridal_leaf{ position: absolute;
+    top: -5vh;
+  }
+  .bridal_leaf {
+    position: absolute;
     left: 73vw;
     width: 6rem;
-    top: 35vh;}
+    top: 35vh;
+  }
 }
 
 .bridal_img {
@@ -33,7 +37,7 @@
   align-items: flex-start;
   padding: 3rem;
   padding-top: 0;
-  // opacity: 45%;
+ 
   h4 {
     font-family: "Cookie";
     color: $dark_red;
@@ -41,7 +45,9 @@
     font-weight: 100;
     display: flex;
     align-items: center;
-    svg{fill:$dark_red;}
+    svg {
+      fill: $dark_red;
+    }
   }
   h2 {
     font-family: "Prata";
@@ -57,8 +63,9 @@
   }
 }
 
-
-.ch-b{
+.ch-b {
   color: $dark_red;
-  svg{fill:$dark_red;}
+  svg {
+    fill: $dark_red;
+  }
 }

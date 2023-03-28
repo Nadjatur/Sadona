@@ -7,16 +7,19 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  .salt_flower{ position: absolute;
+  .salt_flower {
+    position: absolute;
     left: 35vw;
     top: 5vh;
-    width: 6rem;}
-  .salt_leaf{ position: absolute;
+    width: 6rem;
+  }
+  .salt_leaf {
+    position: absolute;
     left: 39vw;
     width: 6rem;
-    top: 35vh;}
+    top: 35vh;
+  }
   .salt_content {
-    //background-color: red;
     height: 100%;
     width: 60%;
     display: flex;
@@ -32,7 +35,9 @@
         font-weight: 100;
         display: flex;
         align-items: center;
-        svg{fill:$dark_red;}
+        svg {
+          fill: $dark_red;
+        }
       }
       h2 {
         font-family: "Prata";

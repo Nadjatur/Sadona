@@ -129,7 +129,6 @@ header .main_header {
   flex-direction: row;
   align-items: center;
   width: 100%;
-  /* margin: 0 auto; */
   justify-content: space-evenly;
   padding: 0.5rem;
 }
@@ -1176,8 +1175,8 @@ footer p {
 .menu_show a {
   text-decoration: none;
   padding: 1rem !important;
-  color: #803E38;
-  font-family: "Barlow";
+  color: #803E38 !important;
+  font-family: "Barlow" !important;
   font-weight: normal;
 }
 

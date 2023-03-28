@@ -4,20 +4,24 @@
   align-items: center;
   position: relative;
   margin-bottom: 2rem;
-  svg{
+  svg {
     stroke-width: 2;
     stroke: $dark_red;
     height: 1rem;
     width: 9rem;
     margin-top: 0.5rem;
   }
-  .cezanne_txt_flower{ position: absolute;
+  .cezanne_txt_flower {
+    position: absolute;
     left: 75vw;
-    width: 5rem;}
-  .cezanne_txt_leaf{ position: absolute;
+    width: 5rem;
+  }
+  .cezanne_txt_leaf {
+    position: absolute;
     left: 25vw;
     width: 3rem;
-    top: 15vh;}
+    top: 15vh;
+  }
   h2 {
     font-family: "Prata";
     color: $dark_red;
@@ -55,11 +59,19 @@
   h2 {
     color: $dark_red;
   }
-  h4{color: $dark_red;
-  svg{fill:$dark_red !important;}}
-  .tr{color: $dark_red; font-weight: normal;
-    svg{fill:$dark_red !important;}}
-
+  h4 {
+    color: $dark_red;
+    svg {
+      fill: $dark_red !important;
+    }
+  }
+  .tr {
+    color: $dark_red;
+    font-weight: normal;
+    svg {
+      fill: $dark_red !important;
+    }
+  }
 }
 .cezanne_content {
   border-radius: 0 6rem;
@@ -98,21 +110,26 @@
     font-size: 1.5rem;
     font-weight: 100;
     display: flex;
-    align-items: center;margin:0;
-    svg{fill:$latte;}
+    align-items: center;
+    margin: 0;
+    svg {
+      fill: $latte;
+    }
   }
-
-  
 }
-.help_bf{h4 {
-  font-family: "Cookie";
-  color: $dark_red;
-  font-size: 1.5rem;
-  font-weight: 100;
-  display: flex;
-  align-items: center;
-  svg{fill:$dark_red;}
-}}
+.help_bf {
+  h4 {
+    font-family: "Cookie";
+    color: $dark_red;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    svg {
+      fill: $dark_red;
+    }
+  }
+}
 .help {
   display: flex;
   width: 100%;
@@ -126,7 +143,9 @@
     font-weight: 100;
     display: flex;
     align-items: center;
-    svg{fill:$dark_red;}
+    svg {
+      fill: $dark_red;
+    }
   }
   h1 {
     font-family: "Prata";
@@ -142,13 +161,12 @@
   }
 }
 
-
-.tr{
+.tr {
   color: $latte;
   margin-left: 4rem;
-  svg{
+  svg {
     fill: $latte;
     transform: rotate(-90deg);
-    padding:  0 1rem;
+    padding: 0 1rem;
   }
 }

@@ -83,7 +83,6 @@
     position: absolute;
     padding-left: 88vw;
     padding-top: 24rem;
-    //width: 6rem;
   }
 }
 .btn_brown {
@@ -91,7 +90,7 @@
   background-color: $brown;
   border-radius: 10rem 0;
   border: none;
-  //margin-top: 2.2rem;
+
   font-size: 0.9rem;
   padding: 0.8rem 2.77rem;
 }
@@ -121,28 +120,26 @@
     stroke-width: 2;
     stroke: $white;
     height: 1rem;
-    // width: 9rem;
+
     margin-top: 0.5rem;
     margin: 0 auto;
   }
-  //position: absolute;
-  // background-color: #f1f1f1;
-  // min-width: 160px;
-  //  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-  // color:$dark_red;
 }
 
 .slider_nav {
-    z-index: 6;
+  z-index: 6;
   position: absolute;
   display: flex;
   flex-direction: row;
   align-items: center;
   top: 65vh;
   left: 32vw;
-  p{cursor: pointer;}
-  p:hover{background-color: $white_opacity;}
+  p {
+    cursor: pointer;
+  }
+  p:hover {
+    background-color: $white_opacity;
+  }
   .inside_slider_nav {
     background-color: $white_opacity;
     height: 0.5vh;
@@ -158,19 +155,16 @@
     border: 0.1rem solid $white;
     padding: 0.5rem;
   }
-  h5{
+  h5 {
     font-size: 1.7rem;
-    font-family: 'Prata';
+    font-family: "Prata";
     font-weight: 100;
-    margin-top: 0;border-top: 0.3rem solid $white;
+    margin-top: 0;
+    border-top: 0.3rem solid $white;
     cursor: pointer;
   }
-  h5:hover{
-   // transform: translate();
-   border-top: 0.3rem solid $dark_red;
-   color: $dark_red;
-
+  h5:hover {
+    border-top: 0.3rem solid $dark_red;
+    color: $dark_red;
   }
 }
-
-

@@ -124,7 +124,9 @@
     font-weight: 100;
     display: flex;
     align-items: center;
-    svg{fill:$latte;}
+    svg {
+      fill: $latte;
+    }
   }
   p {
     color: $brown;
@@ -151,14 +153,16 @@
     left: 16rem;
     position: absolute;
     h4 {
-        font-family: "Cookie";
-        color: $latte;
-        font-size: 1.5rem;
-        font-weight: 100;
-        display: flex;
-        align-items: center;
-        svg{fill:$latte;}
+      font-family: "Cookie";
+      color: $latte;
+      font-size: 1.5rem;
+      font-weight: 100;
+      display: flex;
+      align-items: center;
+      svg {
+        fill: $latte;
       }
+    }
   }
   h3 {
     color: $white;
