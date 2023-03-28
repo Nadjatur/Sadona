@@ -172,6 +172,42 @@ header .down {
   margin: 0 auto;
 }
 
+.slider_nav {
+  z-index: 6;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  top: 65vh;
+  left: 32vw;
+}
+.slider_nav .inside_slider_nav {
+  background-color: rgba(255, 255, 255, 0.45);
+  height: 0.5vh;
+  width: 30vw;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex;
+}
+.slider_nav p {
+  border-radius: 80%;
+  border: 0.1rem solid #FFFFFF;
+  padding: 0.5rem;
+}
+.slider_nav h5 {
+  font-size: 1.7rem;
+  font-family: "Prata";
+  font-weight: 100;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}
+.slider_nav h5:hover {
+  border-top: 0.3rem solid #FFFFFF;
+  margin-top: 0;
+}
+
 .heroex {
   background-color: #D1C1A5;
   position: relative;
